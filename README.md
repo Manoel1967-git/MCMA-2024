@@ -1,24 +1,23 @@
 # A new solution based on multi-objective algorithm for multi-application mappings for Many-Core systems
 This repository contains the resources and extra documentation for the manuscript "A new solution based on multi-objective algorithm for multi-application mappings for Many-Core systems" published in IEEE Latin America Transactions.
 The guidelines are divided into:
--Preparation
+- Preparation
+- Base test
+- Modifying Graphs
 
 
 ## Preparation
 
-1- Download Platemo; https://bimk.ahu.edu.cn/12957/list.htm.
+First, install the Platemo optimization tool according to the instructions in the manual, both available at: https://bimk.ahu.edu.cn/12957/list.htm.
+Create a folder to receive the files contained in this repository, in the indicated path: "..\PlatEMO\Problems\Multi-objective optimization\YourPaste".
+Copy the files from this location to the created folder.
+Copy the file OperatorGA.m from this location to the "Utility functions" folder the path: "..\PlatEMO\Algorithms\Utility functions". Here are the new operators needed for mapping.
 
-2- Install Platemo.
-
-3- create a folder in the indicated path; "..\PlatEMO\Problems\Multi-objective optimization\YourPaste".
-
-4- copy the files from this location to the created folder.
-
-5- C:\Doutorado\PlatEMO-master - ManyCore\PlatEMO\Algorithms\Utility functions.
-
-6- copy the OperadorGA file from this location to the path: "..\PlatEMO\Algorithms\Utility functions".
+## Base test
 
 7- use the ProblemMCMA file to perform the optimization.
+
+## Modifying Graphs
 
 in the ProblemMCMA file the graphs are defined at the beginning of the script, for example;
 
