@@ -1,7 +1,10 @@
-# MCMA-2024
-NoC Mapping
+# A new solution based on multi-objective algorithm for multi-application mappings for Many-Core systems
+This repository contains the resources and extra documentation for the manuscript "A new solution based on multi-objective algorithm for multi-application mappings for Many-Core systems" published in IEEE Latin America Transactions.
+The guidelines are divided into:
+-Preparation
 
-Start;
+
+## Preparation
 
 1- Download Platemo; https://bimk.ahu.edu.cn/12957/list.htm.
 
