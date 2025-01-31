@@ -15,15 +15,17 @@ Copy the file OperatorGA.m from this location to the "Utility functions" folder 
 
 ## Base test
 
-7- use the ProblemMCMA file to perform the optimization.
+To perform a test optimization, use the ProblemMCMA.m file to perform the optimization.
+After the test is run, the generated maps can be displayed using the MOstraNoC.m file.
 
 ## Modifying Graphs
 
-in the ProblemMCMA file the graphs are defined at the beginning of the script, for example;
+To perform other mappings with the combination of other applications, copy the entire contents of the ProblemMCMA.m file, create a new script, paste the copied contents and save the script with a new name.
+Translate the desired applications into graphs, the graphs are defined at the beginning of the script, for example;
 
 %VOPD
 S1 = 1    2   3   4  4   5   6   7   8   8   9 10 11 12 12 12  13 14 15 15 16];
-
+Where S1 is a vector that contains the (numerical) identification of the source nodes of graph 1
 T1 = 2    3   4   5 16   6   7   8   9  10  10  9 12  6  9 13  14 15 11 13  5];
 
 W1 = 70 362 362 362 49 357 353 300 313 500 313 94 16 16 16 16 157 16 16 16 27];
