@@ -40,4 +40,10 @@ Mesh width and mesh height refer to the total size of the NoC.
 Operator used is a predefined value for the operator used in the proposal.
 
 Therefore, for each application it is necessary to describe its graph in S, T, W and params. and modify the line of code below to contain the params variable of each graph;<br>
-[params, LenghtGrafos] = UniGrafo({params1, params2, params3, params4});
+
+[params, LenghtGrafos] = UniGrafo({params1, params2, params3, params4});<br>
+Now you need to join the graphs using the UniGrafo.m function.
+
+## See the graphs
+
+View the graphs using the MCMADisper.m scripts to visualize the set of results obtained, and MOstraNoC.m to visualize the best mapping.
